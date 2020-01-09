@@ -40,7 +40,7 @@ theme_settings :
     instagram: bonasfvck
 
   # Disqus
-  disqus_shortname :
+  disqus_shortname : disqus_QLzaUayxww
 
 # Pagination
 paginate: 5
