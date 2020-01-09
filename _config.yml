@@ -9,7 +9,7 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/frankenstein.png
+    image : assets/img/frankestein.png
     username : Bon
     description : Hey! I am studying Cloud technologies and I am aiming to get certifications in the future. Join me and let's explore possibilities together.
     experience :
