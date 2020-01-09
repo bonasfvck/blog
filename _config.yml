@@ -15,7 +15,10 @@ theme_settings :
     experience :
       - start : 2014
         end : 2020
-        experience : The A Company
+        experience : Applicaiton Developer at the A Company
+      - start : 2013
+        end : 2014
+        experience : Intern Developer at the S Company
     skills : 
       - skill : AWS
         value : 10  # Percent value
