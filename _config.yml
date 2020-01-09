@@ -30,7 +30,7 @@ theme_settings :
   icons :
     email:  # Full email address, e.g. "sample@google.com"
     linkedin:  # Full URL 
-    github: bonasfvck
+    github: 
     gitlab: 
     bitbucket: 
     google_plus:
