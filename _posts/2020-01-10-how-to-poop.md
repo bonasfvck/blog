@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Sample Post with Markdown
-subtitle : How markdown is displayed as html
+title: Hello Pooper!
+subtitle : How to poop
 tags: [HTML, Markdown]
-author: Nayeong Kim
+author: Bon
 comments : True
 ---
 
-This post show result from awesome Markdown techniques like jekyll. 
-`Jekyll` supports to transform your plain text into static websites and blogs. 
+This post is all about pooping and then fainting!
 
 you can easy to change style in `_utility.html` and a sample of the formatting follows.
 
