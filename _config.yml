@@ -5,11 +5,11 @@ url : "https://naye0ng.github.io"
 # Blog Settings
 theme_settings :
   title : Grape Theme
-  favicon : assets/favicon.ico
+  favicon : blog/assets/favicon.ico
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
+    image : blog/assets/img/smile.png
     username : Nayeong Kim
     description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
     experience :
