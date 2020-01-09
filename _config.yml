@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: "blog/"
-url : "https://bonasfvck.github.io"
+url : "https://bonasfvck.github.io/blog"
 
 # Blog Settings
 theme_settings :
