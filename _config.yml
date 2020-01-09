@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/img/frankestein.png
     username : Bon
-    description : Hey! I am studying Cloud technologies, and this platform just document my journey. Though this is not a tutorial blog, still, join me and let's explore possibilities!
+    description : Hey! I am studying Cloud technologies, and this platform documents my journey. Though this is not a tutorial blog, still, join me and let's explore possibilities!
     experience :
       - start : 2014
         end : 2020
