@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: ""
+baseurl: "blog/"
 url : "https://naye0ng.github.io"
 
 # Blog Settings
