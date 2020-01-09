@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Sample Post with Grape-Theme style
-subtitle : How markdown is displayed as html
+title: Go to sleep Kyrie!
+subtitle : Sleepy head goes to bed
 tags: [HTML, Markdown]
-author: Nayeong Kim
+author: Bon
 comments : False
 ---
 
-This is an example of a post which includes code, quotes and backtick.
+How to sleep while farting - this is the post for that!
 
 you can easy to change style in `_utility.html`.
 
