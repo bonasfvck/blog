@@ -1,6 +1,6 @@
 # Site Settings
-baseurl: "blog/"
-url : "https://bonasfvck.github.io/blog"
+baseurl: ""
+url : "https://bonasfvck.github.io"
 
 # Blog Settings
 theme_settings :
@@ -9,7 +9,7 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : blog/assets/img/smile.png
+    image : assets/img/smile.png
     username : Bon
     description : My journey to cloud!
     experience :
@@ -38,7 +38,7 @@ theme_settings :
 
 # Pagination
 paginate: 5
-paginate_path: "blog/page:num"
+paginate_path: "page:5"
 
 # Build Ssttings
 sass:
