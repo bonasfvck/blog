@@ -5,19 +5,25 @@ url : "https://bonasfvck.github.io"
 # Blog Settings
 theme_settings :
   title : Bon
-  favicon : blog/assets/favicon.ico
+  favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
     username : Bon
-    description : My journey to cloud!
+    description : This is my journey to Cloud!
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 2014
+        end : 2020
+        experience : The A Company
     skills : 
-      - skill : HTML5 & CSS
+      - skill : AWS
+        value : 10  # Percent value
+      - skill : Azure
+        value : 15  # Percent value
+      - skill : Sitecore
+        value : 80  # Percent value
+      - skill : Asp.Net MVC
         value : 85  # Percent value
         
   # Icons
@@ -28,17 +34,17 @@ theme_settings :
     gitlab: 
     bitbucket: 
     google_plus:
-    twitter:
+    twitter: bonasfvck
     youtube:
     facebook:
-    instagram:
+    instagram: bonasfvck
 
   # Disqus
   disqus_shortname :
 
 # Pagination
 paginate: 5
-paginate_path: "page:5"
+paginate_path: "page:num"
 
 # Build Ssttings
 sass:
