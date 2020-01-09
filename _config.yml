@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/img/smile.png
     username : Bon
-    description : This is my journey to Cloud!
+    description : Hey! I am studying Cloud technologies and I am aiming to get certifications in the future. Join me and let's explore possibilities together.
     experience :
       - start : 2014
         end : 2020
