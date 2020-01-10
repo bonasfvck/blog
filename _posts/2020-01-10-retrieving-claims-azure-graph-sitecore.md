@@ -2,7 +2,7 @@
 layout: post
 title: Retrieving Azure B2C claims for Sitecore via AD Graph API
 subtitle :
-tags: [Azure, Sitecore, C#]
+tags: [Azure, Sitecore]
 author: Bon
 comments : True
 ---
@@ -41,5 +41,5 @@ In my utility class for the claims, I accessed the cookies and retrieved the [cl
 
 <br>
 
-Now that we have the claims challenge all sorted out, we are now ready to have some Graph API request manipulation with Sitecore. I'll be discussing this on my next post. Happy coding!
+Now that we have the claims challenge all sorted out, we are now ready to do some Graph API request manipulation with Sitecore. I'll be discussing this on my next post. Code responsibly! LOL
 
