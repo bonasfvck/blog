@@ -18,6 +18,17 @@ In this post, I'll be tackling how to retrieve Azure B2C claims from Sitecore vi
 At first, I had been trying to retrieve the user details from my registered application in the Azure tenant but I failed to do so. You see, Sitecore overrides the claims that I am requesting. This is because the Sitecore security model somehow replaces them as mentioned from this [post](http://blog.baslijten.com/how-to-add-federated-authentication-with-sitecore-and-owin/). In order to retrieve the claims, you have to access the cookies from the http request.
 
 <br>
+{% highlight python %}
+var cookie = httpRequest.Cookies[".AspNet.Cookies"];
+var secureDataFormat = new TicketDataFormat(new MachineKeyProtector());
+return ticket = secureDataFormat.Unprotect(cookie.Value);
+{% endhighlight %}
+
+<br>
+In the code, the cookie type .AspNet.Cookies is accessed and then decrypted the authentication ticket after, as it is encrypted by default.
+<br>
+
+<br>
 
 {% highlight python %}
 var authenticationTicket = GetAuthenticationKeyTicket(httpRequest).Identity;
@@ -26,5 +37,9 @@ return authenticationTicket.Claims.Where(claim => claim.Type.Equals(claimType)).
 
 <br>
 
-In my utility class for the claims, I accessed the cookies and retrieved the [claim type](https://docs.microsoft.com/bs-latn-ba/azure/architecture/multitenant-identity/claims) that I needed.
+In my utility class for the claims, I accessed the cookies and retrieved the [claim type](https://docs.microsoft.com/bs-latn-ba/azure/architecture/multitenant-identity/claims) that I needed. I just passed the http request to retrieve the cookies.
+
+<br>
+
+Now that we have the claims challenge all sorted out, we are now ready to have some real Graph API manipulation with Sitecore. I'll be discussing this on my next post. Happy coding!
 
