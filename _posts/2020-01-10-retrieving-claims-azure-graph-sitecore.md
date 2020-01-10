@@ -11,4 +11,4 @@ Let's go and start fresh with some Azure action! So I've been trying to play aro
 
 <br>
 
-In this post, I'll be tackling about retrieving Azure AD claims from Sitecore via Graph API.
+In this post, I'll be tackling how to retrieve Azure AD claims from Sitecore via Graph API. Reading through the Graph API documentation, it seems like it is a walk in the park. But it isn't the case when it comes to Sitecore. 
