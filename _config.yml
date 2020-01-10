@@ -11,14 +11,14 @@ theme_settings :
   profile :
     image : assets/img/frankestein.png
     username : Bon
-    description : Hey! I am studying Cloud technologies, and this platform documents my journey. Even though this is more of a journal than a tutorial, please get on board and we'll have healthy discussions in the comments box. Let's explore possibilities!
+    description : Hey! I am studying Cloud technologies, and this blog documents my journey. Get on board and we'll have healthy discussions in the comments box. Let's explore possibilities!
     experience :
       - start : 2014
         end : 2020
-        experience : Application Developer at the A Company
+        experience : Application Developer at A Company
       - start : 2013
         end : 2014
-        experience : Intern Developer at the S Company
+        experience : Intern Developer at S Company
     skills : 
       - skill : AWS
         value : 10  # Percent value
