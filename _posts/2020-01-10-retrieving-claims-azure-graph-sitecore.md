@@ -25,7 +25,7 @@ return ticket = secureDataFormat.Unprotect(cookie.Value);
 {% endhighlight %}
 
 <br>
-In the code, the cookie type .AspNet.Cookies is accessed and then decrypted the authentication ticket after, as it is encrypted by default.
+In the code, the cookie type .AspNet.Cookies is accessed and have the authentication ticket decrypted after, as it is encrypted by default.
 <br>
 
 <br>
@@ -37,9 +37,9 @@ return authenticationTicket.Claims.Where(claim => claim.Type.Equals(claimType)).
 
 <br>
 
-In my utility class for the claims, I accessed the cookies and retrieved the [claim type](https://docs.microsoft.com/bs-latn-ba/azure/architecture/multitenant-identity/claims) that I needed. I just passed the http request to retrieve the cookies.
+In my utility class for the claims, I accessed the cookies and retrieved the [claim type](https://docs.microsoft.com/bs-latn-ba/azure/architecture/multitenant-identity/claims) that I needed.
 
 <br>
 
-Now that we have the claims challenge all sorted out, we are now ready to have some real Graph API manipulation with Sitecore. I'll be discussing this on my next post. Happy coding!
+Now that we have the claims challenge all sorted out, we are now ready to have some Graph API request manipulation with Sitecore. I'll be discussing this on my next post. Happy coding!
 
