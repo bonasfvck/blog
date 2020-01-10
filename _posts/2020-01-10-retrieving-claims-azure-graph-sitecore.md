@@ -20,8 +20,8 @@ At first, I had been trying to retrieve the user details from my registered appl
 <br>
 
 {% highlight python %}
-# test function
-return GetAuthenticationKeyTicket(httpRequest).Identity.Claims.Where(claim => claim.Type.Equals(claimType)).FirstOrDefault().Value;
+var authenticationTicket = GetAuthenticationKeyTicket(httpRequest).Identity;
+return authenticationTicket.Claims.Where(claim => claim.Type.Equals(claimType)).FirstOrDefault().Value;
 {% endhighlight %}
 
 <br>
