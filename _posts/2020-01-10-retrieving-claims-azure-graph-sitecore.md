@@ -41,5 +41,5 @@ In my utility class for the claims, I accessed the cookies and retrieved the [cl
 
 <br>
 
-Now that we have the claims challenge all sorted out, we are now ready to do some Graph API request manipulation with Sitecore. I'll be discussing this on my next post. Code responsibly! LOL
+Now that we have the claims challenge all sorted out, we are now ready to do some Graph API request manipulation with Sitecore. I'll be discussing this on my next post. Kbye lol
 
