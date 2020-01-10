@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Retrieving Azure AD claims for Sitecore via Graph API
-subtitle : Azure
+subtitle :
 tags: [Azure, Sitecore, C#]
 author: Bon
 comments : True
