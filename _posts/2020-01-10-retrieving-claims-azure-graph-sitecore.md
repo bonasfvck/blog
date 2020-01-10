@@ -19,3 +19,12 @@ At first, I had been trying to retrieve the user details from my registered appl
 
 <br>
 
+{% highlight python %}
+# test function
+return GetAuthenticationKeyTicket(httpRequest).Identity.Claims.Where(claim => claim.Type.Equals(claimType)).FirstOrDefault().Value;
+{% endhighlight %}
+
+<br>
+
+In my utility class for the claims, I accessed the cookies and retrieved the [claim type](https://docs.microsoft.com/bs-latn-ba/azure/architecture/multitenant-identity/claims) that I needed.
+
