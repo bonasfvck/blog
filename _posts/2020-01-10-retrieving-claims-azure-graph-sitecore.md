@@ -21,7 +21,7 @@ At first, I had been trying to retrieve the user details from my registered appl
 {% highlight python %}
 var cookie = httpRequest.Cookies[".AspNet.Cookies"];
 var secureDataFormat = new TicketDataFormat(new MachineKeyProtector());
-return ticket = secureDataFormat.Unprotect(cookie.Value);
+return secureDataFormat.Unprotect(cookie.Value);
 {% endhighlight %}
 
 <br>
