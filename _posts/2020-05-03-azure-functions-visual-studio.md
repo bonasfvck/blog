@@ -39,7 +39,7 @@ API endpoint:
 -	Copy the API endpoint from the highlighted below.
 -	Paste the endpoint in the browser or use Postman, then supply the needed query parameter. The json string will be retrieved as expected.
 
-<img src="/assets/img/azure-function1.jpg" alt="Azure Function" style="width: 300px;">
+<img src="/assets/img/azure_function1.jpg" alt="Azure Function" style="width: 300px;">
 
 <br>
 
