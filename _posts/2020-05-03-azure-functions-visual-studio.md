@@ -14,6 +14,7 @@ In this post, I'll be briefly discussing how to create Azure Functions using Vis
 Pre-requisite:
 -	Visual Studio (of course lol). I used the 2019 Professional version.
 -	An existing Azure tenant with Azure Active Directory.
+- Ensure that you have enough credits in your subscription as this will be charged per API request.
 
 <br>
 
@@ -28,7 +29,7 @@ Development:
 
 Debugging:
 -	Build the solution, create a breakpoint, and press F5.
--	A CLI will appear with the generated API URL.
+-	A CLI will pop up with the generated local API URL.
 -	Copy and paste the URL in the browser, supply the needed query parameter and start debugging.
 
 <br>
@@ -37,9 +38,9 @@ API Endpoint:
 -	Publish your project, check on the docu above.
 -	The function will be generated automatically in the Azure Functions blade.
 -	Copy the API endpoint from the highlighted below.
--	Paste the endpoint in the browser or use Postman, then supply the needed query parameter. The json string will be retrieved as expected.
+-	Paste the endpoint in the browser or use Postman, then supply the needed query parameter. The Json string will be retrieved as expected.
 
-<img src="/assets/img/azure_function1.JPG" alt="Azure Function" style="width: 300px;">
+<img src="/assets/img/azure_function1.JPG" alt="Azure Function" style="width: 600px;">
 
 <br>
 
