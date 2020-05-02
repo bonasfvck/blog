@@ -7,7 +7,7 @@ author: Bon
 comments : True
 ---
 
-In this post, I'll be briefly discussing how to create Azure Functions using Visual Studio. If you have no background regarding Functions yet, please go to this [link](https://docs.microsoft.com/en-us/azure/azure-functions/).
+In this post, I'll be discussing briefly how to create Azure Functions using Visual Studio. If you have no background regarding Functions yet, please go to this [link](https://docs.microsoft.com/en-us/azure/azure-functions/).
 
 <br>
 
