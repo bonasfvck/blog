@@ -9,9 +9,13 @@ comments : True
 
 In this post, I'll be briefly discussing how to create Azure Functions using Visual Studio. If you have no background regarding Functions yet, please go to this [link](https://docs.microsoft.com/en-us/azure/azure-functions/).
 
+<br>
+
 Pre-requisite:
 -	Visual Studio (of course lol). I used the 2019 Professional version.
 -	An existing Azure tenant with Azure Active Directory.
+
+<br>
 
 Development:
 -	For this post, we are going to do some HTTP requests to Azure AD and retrieve some claims.
@@ -20,15 +24,23 @@ Development:
 - Create the codes inside the Function class.
 - If you need to use external libraries, do it via NuGet Manager.
 
+<br>
+
 Debugging:
 -	Build the solution, create a breakpoint, and press F5.
 -	A CLI will appear with the generated API URL.
 -	Copy and paste the URL in the browser, supply the needed query parameter and start debugging.
+
+<br>
 
 API endpoint:
 -	Publish your project, check on the docu above.
 -	The function will be generated automatically in the Azure Functions blade.
 -	Copy the API endpoint from the highlighted below.
 -	Paste the endpoint in the browser or use Postman, then supply the needed query parameter. The json string will be retrieved as expected.
+
+<img src="/assets/img/azure-function1.jpg" alt="Azure Function" style="width: 300px;">
+
+<br>
 
 Let me know about your experience. :)
