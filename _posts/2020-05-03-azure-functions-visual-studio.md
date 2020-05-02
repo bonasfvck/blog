@@ -33,13 +33,13 @@ Debugging:
 
 <br>
 
-API endpoint:
+API Endpoint:
 -	Publish your project, check on the docu above.
 -	The function will be generated automatically in the Azure Functions blade.
 -	Copy the API endpoint from the highlighted below.
 -	Paste the endpoint in the browser or use Postman, then supply the needed query parameter. The json string will be retrieved as expected.
 
-<img src="/assets/img/azure_function1.jpg" alt="Azure Function" style="width: 300px;">
+<img src="/assets/img/azure_function1.JPG" alt="Azure Function" style="width: 300px;">
 
 <br>
 
