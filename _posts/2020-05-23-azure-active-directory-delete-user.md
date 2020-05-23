@@ -19,6 +19,8 @@ In your tenant:
 - Go to Azure Active Directory > Roles and administrators > Global Administrator
 - Click Add Assignments > paste the Application ID of your Registered App > click Add
 
+<img src="/assets/img/delete-user.JPG" alt="AZ 900" style="width: 300px;">
+
 <br>
 
 Test your method now by deleting a user! Hope that helps :)
