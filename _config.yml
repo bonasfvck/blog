@@ -46,7 +46,7 @@ theme_settings :
   disqus_shortname : bonasfvck
 
 # Pagination
-paginate: 3
+paginate: 5
 paginate_path: "page:num"
 
 # Build Ssttings
