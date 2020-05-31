@@ -56,9 +56,9 @@ layout: default
       {% if paginator.total_pages > 1 %}
       <div id="pagination">
         <ul>
-          {% assign q = paginator.page | divided_by: 3 %}
-          {% assign min = q | times: 3  %}
-          {% assign max = q | plus: 1 | times: 3 | minus: 1 %}
+          {% assign q = paginator.page | divided_by: 5 %}
+          {% assign min = q | times: 5  %}
+          {% assign max = q | plus: 1 | times: 5 | minus: 1 %}
           {% if min == 0 %}
           {% assign min = 1 %}
           {% endif %}
