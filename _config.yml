@@ -47,7 +47,7 @@ theme_settings :
 
 # Pagination
 paginate: 5
-paginate_path: "page:num"
+paginate_path: "blog/page:num"
 
 # Build Ssttings
 sass:
