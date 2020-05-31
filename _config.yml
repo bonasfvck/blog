@@ -23,7 +23,7 @@ theme_settings :
       - skill : AWS
         value : 10  # Percent value
       - skill : Azure
-        value : 25  # Percent value
+        value : 35  # Percent value
       - skill : Sitecore
         value : 80  # Percent value
       - skill : Asp.Net MVC
