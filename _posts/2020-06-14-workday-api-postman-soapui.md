@@ -28,7 +28,7 @@ Establishing Connection using Postman:
 - Include your credentials in your body request. The username's format is {Your username}@{Your tenant}.
 - Hit send button and you will be able to get the requested data.
 
-<img src="/assets/img/workday_functions.JPG" alt="Postman" style="width: 500px;">
+<img src="/assets/img/workday_functions.JPG" alt="Postman">
 
 <br>
 
@@ -41,7 +41,7 @@ Establishing Connection using SoapUI:
 - Hit the green button to send the request.
 - Your results should appear in the right pannel.
 
-<img src="/assets/img/workday_functions_soap.JPG" alt="SoapUI" style="width: 500px;">
+<img src="/assets/img/workday_functions_soap.JPG" alt="SoapUI">
 
 <br>
 
