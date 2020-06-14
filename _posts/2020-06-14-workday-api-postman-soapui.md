@@ -11,7 +11,7 @@ For this post, I will be sharing with you how I was able to establish connection
 
 <br>
 
-So, the plan here is that you are going to send requests externally to Workday using their public API. I am posting this because I had a hard time before making this one work because the documentation for this is quite limited.
+So, the plan here is that you are going to send requests externally to Workday using their public API. I am posting this because I had a hard time before making this one work due to the fact the documentation for this is quite limited.
 
 <br>
 
