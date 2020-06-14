@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Establishing Workday API Connection using Postman and SoapUI
+title: Establish Workday API Connection using Postman and SoapUI
 subtitle :
 tags: [Workday]
 author: Bon
