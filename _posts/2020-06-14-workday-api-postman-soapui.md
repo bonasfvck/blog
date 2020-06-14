@@ -11,7 +11,7 @@ For this post, I will be sharing with you how I was able to establish connection
 
 <br>
 
-So, the plan here is that you are going to send requests externally to Workday using their public API. I am posting this because I had a hard time before making this one work due to the fact the documentation for this is quite limited.
+So, the plan here is that you are going to send requests externally to Workday using their public API. I am posting this because I had a hard time before making this one work due to the fact that the documentation for this is quite limited.
 
 <br>
 
@@ -25,9 +25,9 @@ Pre-requisite:
 
 Establishing connection using Postman:
 - The format for the API endpoint is https://{Subdomain}.workday.com/ccx/service/{Your Tenant}/{Service Name}.
-- Include your credentials in your body request, username and password. 
+- Include your credentials in your body request - username and password. 
 - The username's format is {Your username}@{Your tenant}.
-- Hit send button and you will be able to get the requested data.
+- Hit the send button and you will be able to get the requested data.
 
 <img src="/assets/img/workday_functions.JPG" alt="Postman">
 
@@ -46,7 +46,7 @@ Establishing connection using SoapUI:
 
 <br>
 
-There you go! You are now able to establish connection to your Workday tenant. You may now integrate the API to your apps. As for me, since this blog is focused on Cloud tech, I will be posting soon on how I was able to integrate the Workday API with Azure Functions.
+There you go! You are now able to establish connection to your Workday tenant and you may now integrate the API to your apps. As for me, since this blog is focused on Cloud tech, I will be posting soon on how I was able to integrate the Workday API with Azure Functions.
 
 
 
