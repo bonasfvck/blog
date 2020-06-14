@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Establish Workday API Connection using Postman and SoapUI
+title: Establish Workday API connection using Postman and SoapUI
 subtitle :
 tags: [Workday]
 author: Bon
@@ -23,7 +23,7 @@ Pre-requisite:
 
 <br>
 
-Establishing Connection using Postman:
+Establishing connection using Postman:
 - The format for the API endpoint is https://{Subdomain}.workday.com/ccx/service/{Your Tenant}/{Service Name}.
 - Include your credentials in your body request, username and password. 
 - The username's format is {Your username}@{Your tenant}.
@@ -33,7 +33,7 @@ Establishing Connection using Postman:
 
 <br>
 
-Establishing Connection using SoapUI:
+Establishing connection using SoapUI:
 - Import the WSDL file.
 - Expand the project and choose the service you want to send request.
 - Double click the sample Request and a pop-up will appear.
